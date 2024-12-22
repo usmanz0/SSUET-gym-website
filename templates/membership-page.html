@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/the-bold-font" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/general.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/header.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/homepage.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/membership.css') }}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membership</title>
+</head>
+<body>
+  <div class="header">
+    <div class="left-section">
+      <img class="logo" src="{{ url_for('static',filename='images/logo.png') }}">
+    </div>
+
+    <div class="middle-section">
+      <a href="{{ url_for('home') }}">
+        <div class="home-button">Home</div>
+      </a>
+      <div class="about-us-button">About Us</div>
+      <div class="membership-button">Membership</div>
+    </div>
+
+    <div class="right-section">
+      <button class="call-to-action-button">
+        Contact Us
+      </button>
+    </div>
+  </div>
+
+  <div class="hero-section">
+    <div class="hero-section-background"></div>
+    <img class="hero-image" src="{{ url_for('static',filename='images/hero.png') }}">
+    <div class="hero-section-info-container">
+      <div class="membership-section">
+        <div class="pricing-title">Membership Pricing</div>
+
+        <div class="pricing-list">
+
+          <div class="pricing-container">
+            <div class="plan-name">Basic Plan</div>
+            <hr class="line">
+            <ul>
+              <li class="features">Access to all gym equipment</li>
+              <li class="features">Open gym hours</li>
+              <li class="features">Free Wi-Fi</li>
+              <li class="features">Locker facility</li>
+            </ul>
+            <div class="price">$9.00</div>
+            <button class="buy-now-button">
+              Buy Now
+            </button>
+          </div>
+
+          <div class="pricing-container2">
+            <div class="plan-name2">Premium Plan</div>
+            <hr class="line2">
+            <ul>
+              <li class="features2">Everything in Standard Plan</li>
+              <li class="features2">Unlimited group classes</li>
+              <li class="features2">Priority booking for equipment and classes</li>
+              <li class="features2">Personalized fitness and diet plan</li>
+              
+
+            </ul>
+            <div class="price2">$59.00</div>
+            <button class="buy-now-button2">
+              Buy Now
+            </button>
+          </div>
+
+          <div class="pricing-container">
+            <div class="plan-name">Standard Plan</div>
+            <hr class="line">
+            <ul>
+              <li class="features">Everything in Basic Plan</li>
+              <li class="features">3 group fitness classes per week</li>
+              <li class="features">Access to the sauna</li>
+              <li class="features">1 free personal training session</li>
+            </ul>
+            <div class="price">$39.00</div>
+            <button class="buy-now-button">
+              Buy Now
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+.membership-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.pricing-title {
+  font-family: 'the bold font';
+  font-size: 40px;
+  margin-bottom: 64px;
+  color: white;
+}
+
+.pricing-list {
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+  justify-content: center;
+
+}
+
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 390px;
+  background-color: rgba(31, 32, 32, 1);
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.line {
+  box-sizing: border-box;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  color: white;
+}
+
+.plan-name {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.features {
+  color: white;
+  font-weight: 300;
+  line-height: 200%;
+}
+
+.price {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.buy-now-button {
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(244, 206, 20, 1);
+  border: none;
+  font-family: montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 14px;
+}
+
+.pricing-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 390px;
+  background-color: rgba(244, 206, 20, 1);
+  padding-top: 34px;
+  padding-bottom: 34px;
+  transform: scale(1.1);
+}
+
+.line2 {
+  box-sizing: border-box;
+  width: 100%;
+  border-style: solid;
+  
+}
+
+.plan-name2 {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.features2 {
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  line-height: 200%;
+  margin-left: 34px;
+  margin-right: 34px;
+}
+
+.price2 {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.buy-now-button2 {
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(31, 32, 32, 1);
+  color: white;
+  border: none;
+  font-family: montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 14px;
+  
+}

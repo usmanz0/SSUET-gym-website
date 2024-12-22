@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/the-bold-font" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/general.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/header.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/homepage.css') }}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEIGHTS</title>
+</head>
+<body>
+  <div class="header">
+    <div class="left-section">
+      <img class="logo" src="{{ url_for('static', filename='images/logo.png') }}">
+    </div>
+
+    <div class="middle-section">
+      <div class="home-button">Home</div>
+      <div class="about-us-button">About Us</div>
+      <a href="{{ url_for('membership') }}">
+        <div class="membership-button">Membership</div>
+      </a>
+    </div>
+
+    <div class="right-section">
+      <button class="call-to-action-button">
+        Contact Us
+      </button>
+    </div>
+  </div>
+
+  <div class="hero-section">
+    <div class="hero-section-background"></div>
+    <img class="hero-image" src="{{ url_for('static', filename='images/hero.png') }}">
+    <div class="hero-section-info-container">
+      <div class="hero-section-heading-text">Your Journey To Fitness Starts Here.</div>
+    <div class="hero-section-sub-heading">Affordable memberships, expert support, and a gym built to help you achieve your fitness goals.</div>
+    <button class="call-to-action-button">Join now</button>
+    </div>
+  </div>
+
+  <div class="stats-section">
+    <div class="stats-container">
+      <div>
+        <div class="count-text">10+</div>
+        <span>Experienced Trainers</span>
+      </div>
+      <div class="stats-divider"></div>
+      <div>
+        <div class="count-text">1,000+</div>
+        <span>Happy Members</span>
+      </div>
+      <div class="stats-divider"></div>
+      <div>
+        <div class="count-text">20+</div>
+        <span>Fitness Classes Weekly</span>
+      </div>
+      <div class="stats-divider"></div>
+      <div>
+        <div class="count-text">10+ Years</div>
+        <span>Serving the Fitness Community</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="why-choose-weights-section">
+    <h2 class="section-title">WHY CHOOSE WEIGHTS?</h2>
+    <div class="transformation-container">
+      <div class="transformation-block">
+        <img src="{{ url_for('static', filename='images/customerpic.png') }}" class="transformation-image">
+        <div class="transformation-content">
+          <h3>CBum's Lean & Ripped Transformation</h3>
+          <p>
+            Achieved Peak Strength and Definition with WEIGHTS. Through our expert-designed strength and conditioning program, Alex cut down his body fat to 10% while gaining lean muscle. His dedication and our support made it possible in just 16 weeks.
+          </p>
+          <button class="call-to-action-button">Get Ripped Today</button>
+        </div>
+      </div>
+      <div class="transformation-block">
+        <div class="transformation-content">
+          <h3>CBum's Lean & Ripped Transformation</h3>
+          <p>
+            Achieved Peak Strength and Definition with WEIGHTS. Through our expert-designed strength and conditioning program, Alex cut down his body fat to 10% while gaining lean muscle. His dedication and our support made it possible in just 16 weeks.
+          </p>
+          <button class="call-to-action-button">Get Ripped Today</button>
+        </div>
+        <img src="{{ url_for('static', filename='images/customerpic.png') }}" class="transformation-image">
+      </div>
+    </div>
+  </div>
+  
+  <div class="customer-testimonials-section">
+    <div class="testimonial-title">Customer Testiomnials</div>
+    <div class="review-list">
+      <div class="review-container">
+        <div class="review">
+          <div>Joining WEIGHTS was the best decision I’ve made for my health. The facilities are top-notch, and the trainers genuinely care about your progress. I’ve lost 20 pounds and feel stronger than ever!</div>
+          <img class="rating" src="{{ url_for('static', filename='images/group 14.png') }}">
+        </div>
+        <div class="review-info-grid">
+          <div class="profile-picture">
+            <img class="pfp" src="{{ url_for('static', filename='images/images.jpeg') }}">
+          </div>
+          <div class="review-info">
+            <p class="reviewer-name">
+              Marques Brownlee
+            </p>
+            <p class="review-time">
+              2 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="review-container">
+        <div class="review">
+          <div>Joining WEIGHTS was the best decision I’ve made for my health. The facilities are top-notch, and the trainers genuinely care about your progress. I’ve lost 20 pounds and feel stronger than ever!</div>
+          <img class="rating" src="{{ url_for('static', filename='images/group 14.png') }}">
+        </div>
+        <div class="review-info-grid">
+          <div class="profile-picture">
+            <img class="pfp" src="{{ url_for('static', filename='images/images.jpeg') }}">
+          </div>
+          <div class="review-info">
+            <p class="reviewer-name">
+              Marques Brownlee
+            </p>
+            <p class="review-time">
+              2 months ago
+            </p>
+          </div>
+          </div>
+      </div>
+  
+      <div class="review-container">
+        <div class="review">
+          <div>Joining WEIGHTS was the best decision I’ve made for my health. The facilities are top-notch, and the trainers genuinely care about your progress. I’ve lost 20 pounds and feel stronger than ever!</div>
+          <img class="rating" src="{{ url_for('static', filename='images/group 14.png') }}">
+        </div>
+        <div class="review-info-grid">
+          <div class="profile-picture">
+            <img class="pfp" src="{{ url_for('static', filename='images/images.jpeg') }}">
+          </div>
+          <div class="review-info">
+            <p class="reviewer-name">
+              Marques Brownlee
+            </p>
+            <p class="review-time">
+              2 months ago
+            </p>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  background-color: rgba(20, 21, 21, 1);
+  padding-left: 132px;
+  padding-right: 132px;
+  position: fixed;
+  z-index: 100;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 85px;
+  height: 60px;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-button {
+  color: white;
+  margin-right: 124px;
+}
+
+.about-us-button {
+  color: white;
+  margin-right: 124px;
+}
+
+.membership-button {
+  color: white;
+}
+
+.right-section {
+  display: flex;
+  justify-content: right;
+}
+
+.call-to-action-button {
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(244, 206, 20, 1);
+  border: none;
+  font-family: montserrat;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
